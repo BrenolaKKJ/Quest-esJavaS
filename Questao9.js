@@ -15,7 +15,6 @@ while (tentativas < 3) {
         alert("Usuário ou senha incorretos");
     }
 }
-
 if (tentativas === 3) {
     alert("Acesso bloqueado");
 }
