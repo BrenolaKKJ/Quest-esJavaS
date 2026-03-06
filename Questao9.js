@@ -8,14 +8,14 @@ while (tentativas < 3) {
     senha = prompt("Digite a senha:");
 
     if (usuario === "admin" && senha === "1234") {
-        alert("Login realizado com sucesso!");
+        alert("Login realizado com sucesso");
         break;
     } else {
         tentativas++;
-        alert("Usuário ou senha incorretos!");
+        alert("Usuário ou senha incorretos");
     }
 }
 
 if (tentativas === 3) {
-    alert("Acesso bloqueado!");
+    alert("Acesso bloqueado");
 }
